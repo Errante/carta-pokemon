@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("defensa").innerText = "" + res.data.stats[2].base_stat
             // Ataque especial 
             document.getElementById("ataqueE").innerText = "" + res.data.stats[3].base_stat
+            console.log("Esta es una modificacion");
         })
         .catch(error => {
             console.log(error);
