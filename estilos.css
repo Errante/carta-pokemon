@@ -1,0 +1,85 @@
+#container {
+    height: 100vh;
+}
+
+#top {
+    padding-top: 5%;
+}
+
+#imagen {
+    filter: brightness(0%);
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #E3e4e5;
+}
+
+#carta {
+    height: 350px;
+    width: 350px;
+    margin: 0px auto;
+    box-shadow: 0 0 15px #E3e4e5;
+}
+
+#nombre {
+    text-align: center;
+    margin: 0px 10%;
+    display: none;
+}
+
+#topCata {
+    border: solid black 1px;
+}
+
+#xp {
+    padding-top: 5px;
+    margin-left: 15px;
+}
+
+#hp {
+    padding-top: 5px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+#footer {
+    height: 400px;
+    text-align: center;
+}
+
+#caja {
+    text-align: center;
+    padding-top: 2%;
+    width: 350px;
+    margin: 0px auto;
+}
+
+#boton {
+
+    width: 100px;
+    margin: 0px auto;
+}
+
+#listBox {
+    text-align: center;
+    box-shadow: 0 0 15px #E3e4e5;
+}
+
+#body {
+
+    background-image: url(1092839.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+#alert {
+    display: none;
+    text-align: center;
+}
+
+#riniciar {
+    width: 100px;
+    margin: 0px auto;
+}

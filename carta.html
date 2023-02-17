@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body id="body">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Api</title>
+
+    <div class="container-fluid" id="container">
+
+        <div class="row" id="top">
+
+
+
+            <div class="col-3">
+
+                <div class="alert" id="alert">
+                    <div class="alert alert-danger" role="alert">
+                        Nombre incorrecto
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-6">
+
+                <div class="card" id="carta">
+
+                    <div class="row" id="topCarta">
+
+                        <div class="col" id="xp"></div>
+
+                        <div class="col" id="hp"></div>
+
+                    </div>
+
+                    <div class="text-center card-img-top">
+
+                        <img id="imagen" class="card-img-top p-2" alt="">
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <h5 id="nombre" class="card-title"></h5>
+
+                    </div>
+
+                    <div class="card-footer" id="footer">
+                        <div class="row">
+
+                            <div class="col-3">
+
+                                <h6 id="numAtaque"></h6>
+                                <small class="text-muted" id="desc">Ataque</small>
+
+                            </div>
+
+                            <div class="col">
+
+                                <h6 id="ataqueE"></h6>
+                                <small class="text-muted" id="desc">Ataque especial</small>
+
+                            </div>
+
+                            <div class="col-3">
+
+                                <h6 id="defensa"></h6>
+                                <small class="text-muted" id="desc">Defensa</small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row" id="caja">
+
+                    <input id="listBox" class="form-control" type="text" placeholder="Dijite el nombre del pokemon">
+
+                </div> <br>
+
+                <div class="row">
+
+                    <button id="boton" type="button" class="btn btn-primary" onclick="ganaste()">Aceptar</button>
+
+                </div>               
+
+            </div>
+
+            <div class="col-3"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="operaciones.js"></script>
+</body>
+
+</html>
